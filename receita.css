@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    background-color: rgb(248, 234, 237);
+ }
+    
+    
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(228, 51, 51);
+    height: 59px;
+}
+nav .logo{
+    font-size: 30px;
+    color: white;
+}
+ nav ul{
+    list-style: none;
+    display: flex;
+}
+ nav li{
+    padding-right: 20px;
+}
+ nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box1{
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+img{
+    border-radius:5%;
+    border: 5px solid  rgb(228, 51, 51);
+    width: 30%;
+}
+nav a:hover{
+    color: black;
+    transition: 0.3s;
+}
+.box2{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.box3{
+    margin: 2%;
+}
+.parte1{
+    background-color: white;
+    margin: 2%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.parte2{
+    background-color: white;
+    margin: 2%;
+    border-radius: 20px;
+    padding: 20px;
+}
+.parte3{
+    background-color: white;
+    margin: 2%;
+    border-radius: 20px;
+    padding: 10px;
+}
+footer{
+    background-color: rgb(228, 51, 51);
+    height: 40px;
+    align-items: center;
+}
+/***************MEDIA QUERIES************************/
+/****************BREAKPOINTS*************************/
+@media all and (min-width:699px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+     body{
+        background-color: rgb(248, 234, 237);
+     }
+        
+        
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(228, 51, 51);
+        height: 59px;
+    }
+    nav .logo{
+        font-size: 30px;
+        color: white;
+    }
+     nav ul{
+        list-style: none;
+        display: flex;
+    }
+     nav li{
+        padding-right: 20px;
+    }
+     nav li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .box1{
+        margin: auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    img{
+        border-radius:5%;
+        border: 5px solid  rgb(228, 51, 51);
+        width: 30%;
+    }
+    nav a:hover{
+        color: black;
+        transition: 0.3s;
+    }
+    .box2{
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .box3{
+        margin: 2%;
+    }
+    .parte1{
+        background-color: white;
+        margin: 1%;
+        border-radius: 20px;
+        padding: 20px;
+        float: left;
+        width: 40%;
+        height: 300px;
+    }
+    .parte2{
+        background-color: white;
+        margin: 2%;
+        border-radius: 20px;
+        padding: 19px;
+        float: left;
+        width: 54%;
+        
+    }
+    .parte3{
+        background-color: white;
+        margin: 2%;
+        border-radius: 20px;
+        padding: 10px;
+        float: left;
+    }
+    footer{
+        background-color: rgb(228, 51, 51);
+        height: 40px;
+        align-items: center;
+        clear: both;
+    }
+    /***************MEDIA QUERIES************************/
+/****************TABLETS*************************/
+@media (min-width: 500px) and (max-width:700px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+     body{
+        background-color: rgb(248, 234, 237);
+     }
+        
+        
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(228, 51, 51);
+        height: 59px;
+    }
+    nav .logo{
+        font-size: 30px;
+        color: white;
+    }
+     nav ul{
+        list-style: none;
+        display: flex;
+    }
+     nav li{
+        padding-right: 20px;
+    }
+     nav li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .box1{
+        margin: auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    img{
+        border-radius:5%;
+        border: 5px solid  rgb(228, 51, 51);
+        width: 30%;
+    }
+    nav a:hover{
+        color: black;
+        transition: 0.3s;
+    }
+    .box2{
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .box3{
+        margin: 2%;
+    }
+    .parte1{
+        background-color: white;
+        
+        border-radius: 20px;
+        padding: 10px;
+        float:right;
+        width: 30%;
+    }
+    .parte2{
+        background-color: white;
+       
+        border-radius: 20px;
+        padding: 20px;
+        float: right;
+        width: 30%;
+        
+    }
+    .parte3{
+        background-color: white;
+       width: 30%;
+        border-radius: 20px;
+        padding: 10px;
+        float: right;
+    }
+    footer{
+        background-color: rgb(228, 51, 51);
+        height: 40px;
+        align-items: center;
+        clear: both;
+}
+}
